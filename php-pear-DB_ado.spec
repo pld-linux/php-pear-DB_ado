@@ -1,8 +1,9 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          DB
-%define         _subclass       ado
-%define		_pearname	%{_class}_%{_subclass}
+%define		_class		DB
+%define		_subclass	ado
 %define		_status		stable
+%define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - DB driver which use MS ADODB library
 Summary(pl):	%{_pearname} - sterownik DB u¿ywaj±cy biblioteki MS ADODB
 Name:		php-pear-%{_pearname}
