@@ -27,7 +27,7 @@ Server, Oracle and other RDBMS on a Win32 operating system. Moreover
 the possibility exists to use MS Excel spreadsheets, XML, text files
 and other not relational data as data source.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 DB_ado to definicja niezale¿nego od bazy interfejsu zapytañ dla
