@@ -1,11 +1,10 @@
-# Todo
-# - pl summary/description
 %include	/usr/lib/rpm/macros.php
 %define         _class          DB
 %define         _subclass       ado
 %define		_pearname	%{_class}_%{_subclass}
 %define		_status		stable
 Summary:	%{_pearname} - DB driver which use MS ADODB library
+Summary(pl):	%{_pearname} - sterownik DB u¿ywaj±cy biblioteki MS ADODB
 Name:		php-pear-%{_pearname}
 Version:	1.3
 Release:	1
@@ -27,7 +26,17 @@ Server, Oracle and other RDBMS on a Win32 operating system. Moreover
 the possibility exists to use MS Excel spreadsheets, XML, text files
 and other not relational data as data source.
 
-This class has in PEAR status: %{_status}
+This class has in PEAR status: %{_status}.
+
+%description -l pl
+DB_ado to definicja niezale¿nego od bazy interfejsu zapytañ dla
+biblioteki Microsoft ADODB, u¿ywaj±ca rozszerzenia PHP COM. Klasa ta
+pozwala na ³±czenie siê z ró¿nymi ¼ród³ami danych, jak MS Access, MS
+SQL Server, Oracle czy inne RDBMS na systemie operacyjnym Win32. Co
+wiêcej, istnieje mo¿liwo¶æ u¿ywania arkuszy MS Excela, XML-a, plików
+tekstowych i innych nierelacyjnych danych jako ¼róde³ danych.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
