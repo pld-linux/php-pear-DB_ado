@@ -8,7 +8,7 @@ Summary:	%{_pearname} - DB driver which use MS ADODB library
 Summary(pl):	%{_pearname} - sterownik DB u¿ywaj±cy biblioteki MS ADODB
 Name:		php-pear-%{_pearname}
 Version:	1.3
-Release:	2.1
+Release:	2.6
 License:	LGPL
 Group:		Development/Languages/PHP
 # Source0-md5:	b8ebb28f035c5a9c29bc91047423c093
@@ -16,6 +16,8 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/DB_ado/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
+Requires:	php-common >= 3:4.1
+Requires:	php-pear-DB
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
