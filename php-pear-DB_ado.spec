@@ -8,7 +8,7 @@ Summary:	%{_pearname} - DB driver which use MS ADODB library
 Summary(pl):	%{_pearname} - sterownik DB u¿ywaj±cy biblioteki MS ADODB
 Name:		php-pear-%{_pearname}
 Version:	1.3
-Release:	2.6
+Release:	3
 License:	LGPL
 Group:		Development/Languages/PHP
 # Source0-md5:	b8ebb28f035c5a9c29bc91047423c093
