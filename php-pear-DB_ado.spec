@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - DB driver which use MS ADODB library
-Summary(pl):	%{_pearname} - sterownik DB u¿ywaj±cy biblioteki MS ADODB
+Summary(pl.UTF-8):   %{_pearname} - sterownik DB uÅ¼ywajÄ…cy biblioteki MS ADODB
 Name:		php-pear-%{_pearname}
 Version:	1.3
 Release:	3
@@ -34,13 +34,13 @@ and other not relational data as data source.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-DB_ado to definicja niezale¿nego od bazy interfejsu zapytañ dla
-biblioteki Microsoft ADODB, u¿ywaj±ca rozszerzenia PHP COM. Klasa ta
-pozwala na ³±czenie siê z ró¿nymi ¼ród³ami danych, jak MS Access, MS
+%description -l pl.UTF-8
+DB_ado to definicja niezaleÅ¼nego od bazy interfejsu zapytaÅ„ dla
+biblioteki Microsoft ADODB, uÅ¼ywajÄ…ca rozszerzenia PHP COM. Klasa ta
+pozwala na Å‚Ä…czenie siÄ™ z rÃ³Å¼nymi ÅºrÃ³dÅ‚ami danych, jak MS Access, MS
 SQL Server, Oracle czy inne RDBMS na systemie operacyjnym Win32. Co
-wiêcej, istnieje mo¿liwo¶æ u¿ywania arkuszy MS Excela, XML-a, plików
-tekstowych i innych nierelacyjnych danych jako ¼róde³ danych.
+wiÄ™cej, istnieje moÅ¼liwoÅ›Ä‡ uÅ¼ywania arkuszy MS Excela, XML-a, plikÃ³w
+tekstowych i innych nierelacyjnych danych jako ÅºrÃ³deÅ‚ danych.
 
 Ta klasa ma w PEAR status: %{_status}.
 
