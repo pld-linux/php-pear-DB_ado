@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - DB driver which use MS ADODB library
-Summary(pl.UTF-8):   %{_pearname} - sterownik DB używający biblioteki MS ADODB
+Summary(pl.UTF-8):	%{_pearname} - sterownik DB używający biblioteki MS ADODB
 Name:		php-pear-%{_pearname}
 Version:	1.3
 Release:	3
