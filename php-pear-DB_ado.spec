@@ -11,8 +11,8 @@ Version:	1.3
 Release:	3
 License:	LGPL
 Group:		Development/Languages/PHP
-# Source0-md5:	b8ebb28f035c5a9c29bc91047423c093
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	b8ebb28f035c5a9c29bc91047423c093
 URL:		http://pear.php.net/package/DB_ado/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
