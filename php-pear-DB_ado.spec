@@ -1,6 +1,5 @@
 %define		_status		stable
 %define		_pearname	DB_ado
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - DB driver which use MS ADODB library
 Summary(pl.UTF-8):	%{_pearname} - sterownik DB używający biblioteki MS ADODB
 Name:		php-pear-%{_pearname}
